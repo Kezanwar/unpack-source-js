@@ -1,0 +1,19 @@
+{
+  "name": "unpack-source-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "app": "node app --inspect"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "source-map-unpacker": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0"
+  }
+}
